@@ -10,5 +10,40 @@ const kPrimaryGradient = LinearGradient(
   begin: Alignment.centerLeft,
   end: Alignment.centerRight,
 );
-
+const boxShadows = [
+  BoxShadow(
+      // bottomLeft
+      offset: Offset(-1.5, -1.5),
+      color: Colors.black),
+  BoxShadow(
+      // bottomRight
+      offset: Offset(1.5, -1.5),
+      color: Colors.black),
+  BoxShadow(
+      // topRight
+      offset: Offset(1.5, 1.5),
+      color: Colors.black),
+  BoxShadow(
+      // topLeft
+      offset: Offset(-1.5, 1.5),
+      color: Colors.black),
+];
+const shadows = [
+  Shadow(
+// bottomLeft
+      offset: Offset(-1.5, -1.5),
+      color: Color(0xFF1C2341)),
+  Shadow(
+// bottomRight
+      offset: Offset(1.5, -1.5),
+      color: Color(0xFF1C2341)),
+  Shadow(
+// topRight
+      offset: Offset(1.5, 1.5),
+      color: Color(0xFF1C2341)),
+  Shadow(
+// topLeft
+      offset: Offset(-1.5, 1.5),
+      color: Color(0xFF1C2341)),
+];
 const double kDefaultPadding = 20.0;
